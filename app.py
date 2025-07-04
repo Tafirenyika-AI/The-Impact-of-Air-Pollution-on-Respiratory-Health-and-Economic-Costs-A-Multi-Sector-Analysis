@@ -48,7 +48,7 @@ health_summary['Year'] = health_summary['Year'].astype(int)
 merged_df = pd.merge(pollution_df, economic_df, on="Country", how="inner")
 merged_df['Avg_Health_Expenditure'] = merged_df[['2017', '2018', '2019', '2020', '2021']].mean(axis=1)
 merged_df = merged_df[['Country', 'PM2.5 AQI Value', 'Avg_Health_Expenditure']].dropna()
-merged_df.to_csv(r"C:\Users\tafis\OneDrive\Desktop\Air_pollution\merged_clean_data.csv", index=False)
+merged_df.to_csv(r"merged_clean_data.csv", index=False)
 
 st.success("Merged clean dataset saved as 'merged_clean_data.csv'")
 
