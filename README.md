@@ -1,6 +1,6 @@
 # The-Impact-of-Air-Pollution-on-Respiratory-Health-and-Economic-Costs-A-Multi-Sector-Analysis
 The model achieved a moderate R² score, indicating a clear correlation between pollution and spending. Visualizations confirmed trend patterns. RMSE provided a benchmark for prediction accuracy.
-
+https://kjituchs3ljxtufdzyueau.streamlit.app/
 # Introduction to the Problem
 Air pollution, especially particulate matter less than 2.5 microns in diameter (PM2.5), is a critical public health concern. PM2.5 particles can penetrate deep into the lungs and bloodstream, causing respiratory and cardiovascular diseases. The Air Quality Index (AQI) is a metric used to quantify the level of air pollution; higher AQI values indicate worse air quality. This project models the relationship between PM2.5 levels and healthcare expenditures measured as a percentage of Gross Domestic Product (GDP), using real-world data, linear regression, and visual analytics to predict the economic burden of pollution. The goal is to help policymakers make data-informed decisions.
 Air pollution, especially PM2.5, is a critical public health concern. This project models its relationship with health expenditures, using real-world data, linear regression, and visual analytics to predict economic burdens.
@@ -58,3 +58,5 @@ We conclude that PM2.5 pollution has economic consequences. Future work includes
 [3] EPA. (2022). Air Quality Index.
 [4] CDC. (2021). Environmental Health.
 [5] Python Libraries: pandas, seaborn, matplotlib, scikit-learn
+
+# DEMO CLICK THIS LIN: https://kjituchs3ljxtufdzyueau.streamlit.app/
