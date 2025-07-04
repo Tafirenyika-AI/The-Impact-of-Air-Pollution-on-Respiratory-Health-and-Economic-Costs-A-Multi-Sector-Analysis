@@ -18,9 +18,9 @@ st.title("Air Pollution vs Health Expenditure")
 # ----------------------------
 # LOAD DATASETS
 # ----------------------------
-pollution_df = pd.read_csv(r"https://github.com/Tafirenyika-AI/The-Impact-of-Air-Pollution-on-Respiratory-Health-and-Economic-Costs-A-Multi-Sector-Analysis/blob/main/airq2.csv")
-economic_df  = pd.read_csv(r"https://github.com/Tafirenyika-AI/The-Impact-of-Air-Pollution-on-Respiratory-Health-and-Economic-Costs-A-Multi-Sector-Analysis/blob/main/data1.csv")
-health_df    = pd.read_csv(r"https://github.com/Tafirenyika-AI/The-Impact-of-Air-Pollution-on-Respiratory-Health-and-Economic-Costs-A-Multi-Sector-Analysis/blob/main/res.csv")
+pollution_df = pd.read_csv(r"airq2.csv")
+economic_df  = pd.read_csv(r"data1.csv")
+health_df    = pd.read_csv(r"res.csv")
 
 # ----------------------------
 # CLEANING DATASETS
